@@ -2,8 +2,8 @@
   <div>
     <top-nav title="应聘"></top-nav>
     <tabs>
-          <jobs></jobs>
-          <record></record>
+        <jobs></jobs>
+        <record></record>
     </tabs>
     <bottom-nav></bottom-nav>
   </div>

@@ -6,6 +6,8 @@ const Notify = () =>
     import ('@/views/students/notify/Notify.vue')
 const Employment = () =>
     import ('@/views/students/employment/Employment.vue')
+const Employ = () =>
+    import ('@/views/students/employment/Employ.vue')
 
 Vue.use(VueRouter)
 
@@ -22,7 +24,12 @@ const routes = [{
         path: '/employment',
         name: 'Employment',
         component: Employment
-    }
+    },
+    {
+        path: '/employ',
+        name: 'Employ',
+        component: Employ
+    },
 ]
 
 const router = new VueRouter({

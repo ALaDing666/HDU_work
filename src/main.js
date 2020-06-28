@@ -3,15 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+
 import Vant from "vant"
 import 'vant/lib/index.css';
-// import { NavBar } from 'vant';
-// import { Toast } from 'vant';
-// import { Notify } from 'vant';
+import http from "@/utils/http.js";
 
 Vue.config.productionTip = false
 
 Vue.use(Vant);
+Vue.prototype.$ajax = http;
 
 /* eslint-disable no-new */
 new Vue({

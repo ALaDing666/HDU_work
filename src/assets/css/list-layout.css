@@ -1,0 +1,67 @@
+.list {
+    margin-bottom: 60px;
+}
+
+.list li {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 5px #eef;
+    background-color: white;
+}
+
+.list li .van-col--4 .van-icon {
+    margin-top: 5px;
+}
+
+.list li .van-col--15,
+.list li .van-col--12 {
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.list li .van-col--15 h4,
+.list li .van-col--12 h4 {
+    margin-bottom: 8px;
+}
+
+.list li .van-col--15 div span,
+.list li .van-col--12 div span {
+    font-size: 14px;
+    color: #444;
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid #555;
+}
+
+.list li .van-col--15 div span:last-child,
+.list li .van-col--12 div span:last-child {
+    border: 0;
+}
+
+.list li .date {
+    color: gray;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.list li .van-col--5 .van-button {
+    position: absolute;
+    border-radius: 3px;
+    width: 60px;
+    font-size: 12px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.list li .van-col--5 .right-bottom,
+.list li .van-col--8 .right-bottom {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
